@@ -1,4 +1,5 @@
 #SensorTape Project 
+![MediaLab Logo](/images/logo.png)
 
 ##Introduction 
 SensorTape is a sensor network in a form factor of a tape. It allows users to intuitively create large sensor networks. See mode details in the paper from UIST conference and a video 
@@ -24,8 +25,6 @@ SensorTape_3D_Demo_V1/ - Processing sketch for the 3D surface reconstruction wit
 
 ##Master
 
-![MediaLab Logo](/images/logo.png)
-Format: ![Alt Text](url)
 
 
 ##Known Issues
