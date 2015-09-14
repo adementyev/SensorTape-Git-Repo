@@ -5,12 +5,12 @@ SensorTape is a sensor network in a form factor of a tape. It allows users to in
 This repository contains all the hardware and software design files to make SensorTape. 
 
 ##Content
-Master_hw/ - Hardware files for the master board in Altium format. Can be used to make the board
-Slave_hw/ - Hardware files for the tape itself, refered here as the slave. This is the flexible circuit version of the tape 
-Prog_adapter_hw/ -  Hardware files for the programming board, use it to program both the slave and the master. 
-libraries/ - Collection of the Arduino libraries for the master and the slave. Those libraries are required 
-Software/ - Firmware for both the master and the slave
-SensorTape_Sensor_Demo_V1/ - Processing sketch for a simple visualization demo. Demonstrates the basics of interfacing with a PC. 
+*Master_hw/ - Hardware files for the master board in Altium format. Can be used to make the board
+*Slave_hw/ - Hardware files for the tape itself, refered here as the slave. This is the flexible circuit version of the tape 
+*Prog_adapter_hw/ -  Hardware files for the programming board, use it to program both the slave and the master. 
+*libraries/ - Collection of the Arduino libraries for the master and the slave. Those libraries are required 
+*Software/ - Firmware for both the master and the slave
+*SensorTape_Sensor_Demo_V1/ - Processing sketch for a simple visualization demo. Demonstrates the basics of interfacing with a PC. 
 
 
 ##Slave 
