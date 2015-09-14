@@ -17,6 +17,8 @@ Software/ - Firmware for both the master and the slave
 
 SensorTape_Sensor_Demo_V1/ - Processing sketch for a simple visualization demo. Demonstrates the basics of interfacing with a PC. 
 
+SensorTape_3D_Demo_V1/ - Processing sketch for the 3D surface reconstruction with IMUs and NURBs curves for a PC 
+
 
 ##Slave 
 
