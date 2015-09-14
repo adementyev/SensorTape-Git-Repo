@@ -1,6 +1,8 @@
 #SensorTape Project 
 
 ##Introduction 
+SensorTape is a sensor network in a form factor of a tape. It allows users to intuitively create large sensor networks. See mode details in the paper from UIST conference and a video 
+This repository contains all the hardware and software design files to make SensorTape. 
 
 ##Content
 Master_hw/ - Hardware files for the master board in Altium format. Can be used to make the board
@@ -25,3 +27,4 @@ Format: ![Alt Text](url)
 
 
 ##Aknowledgements
+MIT Media Lab, Nan-Wei Gong, Cindy Kao, Nan Zhao, Felix Heibeck, National Sceince Foundation. 
