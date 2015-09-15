@@ -1,5 +1,5 @@
 #SensorTape Project 
-![MediaLab Logo](/images/logo.png)
+
 
 ##Introduction 
 SensorTape is a sensor network in a form factor of a tape. It allows users to intuitively create large sensor networks. See mode details in the paper from UIST conference and a video 
@@ -48,3 +48,4 @@ Master moves the data from the slaves to the PC. I am using an ATMega32u4 microc
 
 ##Aknowledgements
 MIT Media Lab, Nan-Wei Gong, Cindy Kao, Nan Zhao, Felix Heibeck, National Sceince Foundation. 
+![MediaLab Logo](/images/logo.png)
