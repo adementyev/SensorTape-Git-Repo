@@ -14,11 +14,10 @@ Prog_adapter_hw/ -  Hardware files for the programming board, use it to program 
 
 libraries/ - Collection of the Arduino libraries for the master and the slave. Those libraries are required 
 
-Software/ - Firmware for both the master and the slave
+Firmware/ - Firmware for both the master and the slave
 
-SensorTape_Sensor_Demo_V1/ - Processing sketch for a simple visualization demo. Demonstrates the basics of interfacing with a PC. 
+SensorTape_Demo_V1/ - Processing sketch for a simple visualization demo. Demonstrates the basics of interfacing with a PC. 
 
-SensorTape_3D_Demo_V1/ - Processing sketch for the 3D surface reconstruction with IMUs and NURBs curves for a PC 
 
 ##Firmware 
 Add the arduino libraries from the libraries/ folder here to the worspace libraries folder. 
@@ -31,11 +30,18 @@ you will need to load the bootloader first into the boards. This will set the fu
 I used Processing 3. You will need one external library (toxiclibs-complete-0020)
 
 ##Slave
-The slaves are basically the tape. The tape is made of strips with 6 slave nodes. You will need a flexible PCB factory to manufacture. The factories in china are innexpensive and have good quality. They can be found on alibaba.com. Also it is better to get it assembled profesionally, since hand assembly is difficult. I had a lot of problems with the packaging of proximity sensor melting in a reflow owen
+The slaves are basically the tape. The tape is made of strips with 6 slave nodes. You will need a flexible PCB factory to manufacture. The factories in china are innexpensive and have good quality. They can be found on alibaba.com. Also it is better to get it assembled profesionally, since hand assembly is difficult. I had a lot of problems with the packaging of proximity sensor melting in my reflow owen. 
+
+The programming connector can be hard to attach on the first try, since it is just pressfitted. 
+
+When starting the tape wait about a minute for the IMUs to calibrate, otherwise the orientaion data will drift
+
+##Master
+Master moves the data from the slaves to the PC. I am using an ATMega32u4 microcontroller, which works as a USB modem. 
 
 ##Known Issues
 1. Proximity sometimes dont work if tape is restarted. I suspect that they don't have time to fully discharge. When turning the tape on and off or restarting, wait some time to turn it back on. 
-2. The number of nodes is set pn the PC side in the current version. 
+2. The number of nodes is set pn the PC side in the current version. So the nodes dont need to be reset each time PC software is restarted. 
 
 
 ##Aknowledgements
