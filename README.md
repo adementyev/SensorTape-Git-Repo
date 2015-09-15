@@ -2,7 +2,7 @@
 
 
 ##Introduction 
-SensorTape is a sensor network in a form factor of a tape. It allows users to intuitively create large sensor networks. See mode details in the paper from UIST conference and a video 
+SensorTape is a sensor network in a form factor of a tape. It allows users to intuitively create large sensor networks. See mode details in the paper from [UIST](http://artem.dementyev.us/wp-content/uploads/2013/10/Sensor_tape_UIST_2015_rev9_FINAL.pdf) conference and a video 
 This repository contains all the hardware and software design files to make SensorTape. 
 
 ![MediaLab Logo](/images/tape.jpg)
