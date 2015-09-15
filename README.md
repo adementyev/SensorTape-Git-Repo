@@ -5,6 +5,8 @@
 SensorTape is a sensor network in a form factor of a tape. It allows users to intuitively create large sensor networks. See mode details in the paper from UIST conference and a video 
 This repository contains all the hardware and software design files to make SensorTape. 
 
+![MediaLab Logo](/images/tape.jpg)
+
 ##Content
 Master_hw/ - Hardware files for the master board in Altium format. Can be used to make the board
 
@@ -27,7 +29,7 @@ you will need a programmer and an adapter board (Prog_adapter_hw/) to load the s
 you will need to load the bootloader first into the boards. This will set the fuses and the clock frequency. Use the Arduino Micro (3.3V, 8 MHz) for the slaves and Arduino leonardo for the master. Set those before loading the bootloader
 
 ##PC software
-I used Processing 3. You will need one external library (toxiclibs-complete-0020)
+I used Processing 3. You will need one external library (toxiclibs-complete-0020), it is in the libraries folder. 
 
 ##Slave
 The slaves are basically the tape. The tape is made of strips with 6 slave nodes. You will need a flexible PCB factory to manufacture. The factories in china are innexpensive and have good quality. They can be found on alibaba.com. Also it is better to get it assembled profesionally, since hand assembly is difficult. I had a lot of problems with the packaging of proximity sensor melting in my reflow owen. 
