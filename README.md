@@ -30,16 +30,12 @@ you will need to load the bootloader first into the boards. This will set the fu
 ##PC software
 I used Processing 3. You will need one external library (toxiclibs-complete-0020)
 
-##Slave 
-
-
-##Master
-
-
+##Slave
+The slaves are basically the tape. The tape is made of strips with 6 slave nodes. You will need a flexible PCB factory to manufacture. The factories in china are innexpensive and have good quality. They can be found on alibaba.com. Also it is better to get it assembled profesionally, since hand assembly is difficult. I had a lot of problems with the packaging of proximity sensor melting in a reflow owen
 
 ##Known Issues
 1. Proximity sometimes dont work if tape is restarted. I suspect that they don't have time to fully discharge. When turning the tape on and off or restarting, wait some time to turn it back on. 
-2. 
+2. The number of nodes is set pn the PC side in the current version. 
 
 
 ##Aknowledgements
