@@ -45,6 +45,18 @@ Master moves the data from the slaves to the PC. I am using an ATMega32u4 microc
 1. Proximity sometimes dont work if tape is restarted. I suspect that they don't have time to fully discharge. When turning the tape on and off or restarting, wait some time to turn it back on. 
 2. The number of nodes is set pn the PC side in the current version. So the nodes dont need to be reset each time PC software is restarted. 
 
+##Manufacturing and Design 
+There are three parts needed for manufacturing: 
+1) Manufacturing the flexible circuits 
+2) Sourcing the parts 
+3) Assembly (parts+flex circuit = done!)
+
+We encourage manufacturing the SensorTape from the source files. There are numerous board houses that can do flexible electronics. The prices in the US are quite expensive (few thousand $$$), and the same boards can be made in China for a fraction of the price(few hundred $$$). On the other hand, it is easier to communicate with the US-based manufacturers. The Chinese board houses can be found and contacted directly on places such as Alibaba.com. 
+
+The parts can be bought easily from US-based large electronics sellers such as Digikey.com. If you want the parts cheaper, go through Alibaba.com. It is more difficult, but can be cheaper especially for the ICs. 
+
+The assembly should be done by a factory also, using professional equipment. Doing it by hand is possible, but requires a good reflow oven. The oven needs to have even temperature distribution, since proximity sensor packaging can easily melt. There are numerous assembly houses in the US, such as Advanced Circuits. They have reasonable prices (around a thousand). There are also assembly houses in China, that area cheaper, but once again are more difficult to contact.  
+
 
 ##Aknowledgements
 MIT Media Lab, Nan-Wei Gong, Cindy Kao, Nan Zhao, Felix Heibeck, National Sceince Foundation. 
