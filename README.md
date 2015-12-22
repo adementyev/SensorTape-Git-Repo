@@ -20,6 +20,11 @@ Firmware/ - Firmware for both the master and the slave
 
 SensorTape_Demo_V1/ - Processing sketch for a simple visualization demo. Demonstrates the basics of interfacing with a PC. 
 
+##Getting started
+Connect the mini USB port on the master board to the computer. The master board has two usb ports and the micro USB port is only for 5V power. 
+Connect the tape to the master using the FPC connector on the master. Make sure it secured. The tape has to be placed in the right orientation. There are 5 wires on the tape and the master, and they should match up. See the picture below. 
+
+![MediaLab Logo](/images/master_orientation.jpg)
 
 ##Firmware 
 Add the arduino libraries from the libraries/ folder here to the worspace libraries folder. 
