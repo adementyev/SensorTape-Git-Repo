@@ -20,11 +20,22 @@ Firmware/ - Firmware for both the master and the slave
 
 SensorTape_Demo_V1/ - Processing sketch for a simple visualization demo. Demonstrates the basics of interfacing with a PC. 
 
-##Getting started
+##Getting Started
 Connect the mini USB port on the master board to the computer. The master board has two usb ports and the micro USB port is only for 5V power. 
 Connect the tape to the master using the FPC connector on the master. Make sure it secured. The tape has to be placed in the right orientation. There are 5 wires on the tape and the master, and they should match up. See the picture below. 
 
 ![MediaLab Logo](/images/master_orientation.jpg)
+
+Turn the switch on the master. The sensor nodes on the tape should light up. 
+Once the initialization is done, the blue light will start blinking. 
+The raw data can be seen on the serial terminal (at 115200 baud rate) 
+The data visaulization can be done using the SensorTape_Demo_V1 software for Processing. In the code SensorTape_Demo_V1.pde. There is a line which defines number of nodes: 
+int numberOfNodes = 16; 
+This should be changed to the number you have, to make debugging easier. 
+Also, if the number is incorrect, 3D visualizations will be messed up. 
+
+The IMU sensors need some time to calibrate (about 30 seconds) after powering on. If they are moved during the time the orientation vectors will be messed up. 
+
 
 ##Firmware 
 Add the arduino libraries from the libraries/ folder here to the worspace libraries folder. 
